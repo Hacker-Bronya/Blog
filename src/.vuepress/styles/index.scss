@@ -1,1 +1,28 @@
 // place your custom styles here
+.vp-blog-hero-title {
+    background: linear-gradient(to right, blue, red); /* 从蓝色到红色的渐变背景 */
+    -webkit-background-clip: text; /* 使背景裁剪到文本 */
+    -moz-background-clip: text; /* Firefox 支持 */
+    color: transparent; /* 使文本颜色透明，以显示渐变效果 */
+    font-size: 60px;
+}
+
+.vp-blog-hero-description {
+    background: linear-gradient(to right, blue, red); /* 从蓝色到红色的渐变背景 */
+    -webkit-background-clip: text; /* 使背景裁剪到文本 */
+    -moz-background-clip: text; /* Firefox 支持 */
+    color: transparent; /* 使文本颜色透明，以显示渐变效果 */
+    font-size: 30px;
+}
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 0.8;
+    }
+  }
+  
+

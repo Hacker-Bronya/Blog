@@ -2,14 +2,23 @@
 home: true
 layout: BlogHome
 icon: home
-title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 你博客的名称
+title: 主页
+heroImage: 
+bgImage: /assets/images/homeBG.jpg
+bgImageStyle: {
+  animation: 'fadeIn 1s forwards',
+  // 如果需要也可以添加其他样式
+  
+}
+
+
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+heroText: SiYue's Blog
+
+tagline: 学习笔记、生活记录、技术分享
 projects:
   - icon: project
-    name: 项目名称
+    name: 项目
     desc: 项目详细描述
     link: https://你的项目链接
 
@@ -19,7 +28,7 @@ projects:
     link: https://链接地址
 
   - icon: book
-    name: 书籍名称
+    name: 学习笔记
     desc: 书籍详细描述
     link: https://你的书籍链接
 
@@ -29,8 +38,8 @@ projects:
     link: https://你的文章链接
 
   - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
+    name: 友链
+    desc: 
     link: https://你的伙伴链接
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
