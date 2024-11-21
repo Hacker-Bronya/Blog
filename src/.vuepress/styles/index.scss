@@ -13,6 +13,8 @@
     -moz-background-clip: text; /* Firefox 支持 */
     color: transparent; /* 使文本颜色透明，以显示渐变效果 */
     font-size: 30px;
+
+
 }
 
 
@@ -25,4 +27,12 @@
     }
   }
   
-
+//打字动画
+@keyframes typing {
+    from { width: 0ch; }
+    to { width: 20ch; }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: rgb(247, 0, 255); } /* 光标颜色 */
+}
